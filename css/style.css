@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Raleway';
+    margin: 10;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .botao {
+    background-color: #ffffff;
+    color: rgb(69, 99, 155);
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+
+  .banner {
+    background: url(../img/banner-bg.png) center no-repeat;
+    background-size: cover;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner__conteudo {
+    color: white;
+    text-align: center;
+  }
+  
+  .banner__titulo {
+    font-size: 42px;
+  }
+  
+  .banner__link:hover {
+    background-color: rgba(60, 119, 207, 0.5);
+    color: white;
+    transition: .5s;
+  }
+  
+  .section {
+    margin: 5% 10%;
+    line-height: 30px;
+  }
+  
+  .section__titulo {
+    color: rgb(95, 134, 185);
+    font-size:36px;
+  }
+  
+  .sobre {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .sobre__texto {
+    width: 50%;
+    margin-right:60px;
+  }
+
+  .sobre-habilidades {
+    width: 50%;
+    margin-left: 60px;
+  }
+
+  .sobre-habilidades__titulo {
+    margin-left: 30px;
+  }
+  
+  .sobre__texto-principal {
+    font-size: 18px;
+  }
+  
+  .sobre__cv {
+    border: 1px solid rgb(69, 99, 155);
+  }
+
+  .sobre__meescolhe {
+    border: 1px solid rgb(69, 99, 155);
+  }
+  
+  .sobre__cv:hover {
+    opacity: 0.5;
+    transition: .5s;
+  }
+
+  .footer {
+    margin: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .redes-sociais {
+    display: flex;
+  }
+  
+  .redes-sociais__link {
+    margin: 20px;
+    background-color: rgb(54, 102, 173);
+    color: white;
+    text-align:center;
+    padding: 10px 20px;
+    width: 150px;
+    border-radius: 30px;
+  }
+  
+  .redes-sociais__link:hover {
+    transform: scale(1.2);
+    transition: .5s;
+  }
+  
+  .redes-sociais__link img {
+    padding-top: 15px;
+    width: auto;
+    height: 70px;
+  }
+
+  
+  
+  
+  
+  
+  
